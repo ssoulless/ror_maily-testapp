@@ -20,6 +20,6 @@ end
 
 gem 'sinatra', :require => nil
 
-gem 'maily_herald'
-gem 'maily_herald-webui'
+gem 'ror_maily', git: 'https://github.com/ssoulless/RoRmaily.git', branch: 'development'
+gem 'ror_maily-webui', git: 'https://github.com/ssoulless/ror_maily-webui.git'
 gem 'forgery'
