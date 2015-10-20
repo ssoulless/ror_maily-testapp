@@ -21,5 +21,7 @@ end
 gem 'sinatra', :require => nil
 
 gem 'ror_maily', git: 'https://github.com/ssoulless/RoRmaily.git', branch: 'development'
+gem 'maily_herald'
 gem 'ror_maily-webui', git: 'https://github.com/ssoulless/ror_maily-webui.git'
+gem 'maily_herald-webui'
 gem 'forgery'

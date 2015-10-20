@@ -1,3 +1,24 @@
+GIT
+  remote: https://github.com/ssoulless/RoRmaily.git
+  revision: f429e2b4a8ff54c0d3ed4c34f0a64dcb4f6cff46
+  branch: development
+  specs:
+    ror_maily (0.8.0)
+      liquid (~> 2.6.1)
+      rails (> 3.2)
+      sidekiq (~> 2.17.8)
+
+GIT
+  remote: https://github.com/ssoulless/ror_maily-webui.git
+  revision: c4eceb0a7008c86bb79e79ae9e939dd275ac5e3e
+  specs:
+    ror_maily-webui (0.9.0)
+      coffee-rails
+      haml
+      ror_maily (~> 0.8.0)
+      sass-rails
+      smart_listing (~> 1.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +211,8 @@ DEPENDENCIES
   maily_herald-webui
   pg
   rails (= 4.2.0)
+  ror_maily!
+  ror_maily-webui!
   sass-rails (~> 5.0)
   sinatra
   spring
