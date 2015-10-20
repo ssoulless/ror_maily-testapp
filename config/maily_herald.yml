@@ -1,0 +1,4 @@
+---
+:verbose: true
+:logfile: log/maily_herald.log
+:pidfile: tmp/pids/maily_herald.pid
