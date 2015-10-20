@@ -1,7 +1,5 @@
 development:
-  adapter: postgresql
-  database: maily_testapp
-  host: localhost
-  username: maily_testapp
-  password: maily_testapp
-  encoding: utf8
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
